@@ -85,7 +85,8 @@ $size-header-pad: 4em;
 		color: inherit;
 	}
 
-	input::-moz-focus-inner {
+	input:: -webkit-focus-inner {
+		-moz-focus-inner 
 		border: 0;
 		padding: 0;
 	}
